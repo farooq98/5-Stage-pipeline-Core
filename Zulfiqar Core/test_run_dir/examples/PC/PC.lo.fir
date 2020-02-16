@@ -1,0 +1,15 @@
+circuit PC : @[:@2.0]
+  module PC : @[:@3.2]
+    input clock : Clock @[:@4.4]
+    input reset : UInt<1> @[:@5.4]
+    input io_input : UInt<32> @[:@6.4]
+    output io_pc4 : UInt<32> @[:@6.4]
+    output io_pc : UInt<32> @[:@6.4]
+  
+    reg reg : UInt<32>, clock with :
+      reset => (UInt<1>("h0"), reg) @[PC.scala 10:20:@8.4]
+    node _T_14 = add(reg, UInt<3>("h4")) @[PC.scala 12:17:@10.4]
+    node _T_15 = tail(_T_14, 1) @[PC.scala 12:17:@11.4]
+    io_pc4 <= _T_15 @[PC.scala 12:10:@12.4]
+    io_pc <= reg @[PC.scala 13:9:@13.4]
+    reg <= mux(reset, UInt<32>("h0"), io_input) @[PC.scala 11:7:@9.4]

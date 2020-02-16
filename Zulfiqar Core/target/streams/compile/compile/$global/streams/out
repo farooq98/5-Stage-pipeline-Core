@@ -1,0 +1,7 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/farooq/chisel-tutorial/src/main/scala/riscv/Forwarding.scala:28:5: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m    DontCare[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/farooq/chisel-tutorial/src/main/scala/riscv/Forwarding.scala:40:5: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m    DontCare[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

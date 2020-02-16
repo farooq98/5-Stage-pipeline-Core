@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/farooq/chisel-tutorial/src/test/scala/riscv/datamemtest.scala:9:2: not found: value oke[0m
+[0m[[0m[31merror[0m] [0m[0m	oke(c.io.strsel,1)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

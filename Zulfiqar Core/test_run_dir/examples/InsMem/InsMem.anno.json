@@ -1,0 +1,10 @@
+[
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"InsMem.InsMem.mem",
+    "fileName":"/home/farooq/testFile.txt",
+    "hexOrBinary":{
+      "name":"h"
+    }
+  }
+]

@@ -1,0 +1,59 @@
+test:run-main example.Launcher Adder
+test:run-main examples.Launcher Adder
+test:runMain examples.Launcher Adder
+test:runMain examples.Launcher Adder --backend-name verilator
+test:runMain riscv.Launcher Adder
+test:runMain riscv.Launcher Adder --backend-name verilator
+test:runMain riscv.Launcher FullAdder2 --backend-name verilator
+test:runMain riscv.Launcher registerFile --backend-name verilator
+test:runMain riscv.Launcher registerFile
+test:runMain riscv.Launcher registerFile --backend-name verilator
+test:runMain riscv.Launcher Control
+test:runMain riscv.Launcher Core
+test:runMain riscv.Launcher JalrTarget
+test:runMain riscv.Launcher Core
+test:runMain riscv.Launcher JalrTarget
+test:runMain riscv.Launcher immGen
+test:runMain riscv.Launcher Core
+test:runMain riscv.Launcher Core --backend-name verilator
+test:runMain riscv.Launcher Core
+test:runMain riscv.Launcher Core --backend-name verilator
+test:runMain riscv.Launcher Core
+test:runMain riscv.Launcher Core --backend-name verilator
+test:runMain riscv.Launcher Core
+test:runMain riscv.Launcher Core --backend-name verilator
+test:runMain riscv.Launcher PC
+test:runMain riscv.Launcher PC --backend-name verilator
+test:runMain riscv.Launcher InsMem
+test:runMain riscv.Launcher InsMem --backend-name verilator
+test:runMain riscv.Launcher Core
+test:runMain riscv.Launcher Core --backend-name verilator
+test:runMain riscv.Launcher Core
+test:runMain riscv.Launcher Core --backend-name verilator
+test:runMain riscv.Launcher Core
+test:runMain riscv.Launcher Core --backend-name verilator
+test:runMain riscv.Launcher Core
+test:runMain riscv.Launcher Core --backend-name verilator
+test:runMain riscv.Launcher DataMem
+test:runMain riscv.Launcher Core --backend-name verilator
+test:runMain riscv.Launcher InsMem --backend-name verilator
+test:runMain riscv.Launcher Core  --backend-name verilator
+test:runMain riscv.Launcher DataMem
+test:runMain riscv.Launcher DataMem --backend-name verilator
+test:runMain riscv.Launcher DataMem
+test:runMain riscv.Launcher DataMem --backend-name verilator
+test:runMain riscv.Launcher Core
+test:runMain riscv.Launcher Core --backend-name verilator
+test:runMain riscv.Launcher Core
+test:runMain riscv.Launcher Core --backend-name verilator
+test:runMain riscv.Launcher Core
+test:runMain riscv.Launcher Core --backend-name verilator
+test:runMain Risv2.Launcher Top
+test:runMain riscv.Launcher Top
+top
+test:runMain riscv.Launcher top
+test:runMain riscv.Launcher top --backend-name verilator
+test:runMain riscv.Launcher Core --backend-name verilator
+test:runMain riscv.Launcher AluControl
+clear
+test:runMain riscv.Launcher Core --backend-name verilator
